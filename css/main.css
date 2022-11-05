@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(233, 229, 229);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn-top {
+  border: 2px solid transparent;
+  display: flex;
+  margin-top: 20px;
+  background: rgb(127, 131, 131);
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px 5px;
+  font-size: 15px;
+}
+
+.btn-top:hover {
+  background: rgb(87, 81, 81);
+}
+
+.btn-top span {
+  background: white;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 3px;
+  border-radius: 6px;
+}
+
+.btn {
+  border: 3px solid transparent;
+  background: black;
+  padding: 7px 25px;
+  margin: 30px 0;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background: rgb(73, 71, 71);
+}
+
+.header-textsection {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-textsection h2 {
+  margin: 10px 0;
+}
+
+.header-textsection p {
+  font-size: xx-large;
+}
+
+.body-section {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 30px 0;
+  display: flex;
+}
+
+.body-section .body-textsection {
+  border-right: 1px solid black;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.body-section .body-textsection p {
+  line-height: 30px;
+}
+
+.body-section .body-textsection h5 span {
+  font-size: 55px;
+  margin: 40px 0;
+}
+
+.body-section .body-textsection button {
+  color: white;
+}
+
+#last-section {
+  border-right: 1px solid transparent;
+}
+
+#angles-right {
+  padding-right: 10px;
+}
+
+#first-bodysection {
+  padding-bottom: 30px;
+}
